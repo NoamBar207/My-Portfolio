@@ -1,6 +1,7 @@
 <template>
     <div class="social-media-btn">
-        <button class="download-cv button-cv" @click="openPdf()">READ CV</button>
+        <!-- <button class="download-cv button-cv" @click="openPdf()">READ CV</button> -->
+        <button class="download-cv button-cv" @click="openInNewTab('https://pdfhost.io/v/ec9.M.piP_Noam_Bar_CV')">READ CV</button>
         <div class="social-media"> 
             <button class="media-btn" @click="openInNewTab('https://www.facebook.com/profile.php?id=100010249146928&mibextid=ZbWKwL')" :style="{'background-image' : 'url(' + FB_LOGO + ')'}"><span></span></button>
             <button class="media-btn" @click="openInNewTab('https://www.instagram.com/noambar')" :style="{'background-image' : 'url(' + IG_LOGO + ')'}"><span></span></button>
