@@ -1,0 +1,38 @@
+.social-media-btn {
+    @include flex-center;
+    gap: 6px;
+
+    button {
+        height: 32px;
+        width: 32px;
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+    }
+
+
+    .download-cv {
+        width: fit-content;
+    }
+
+    .social-media {
+        @include flex-center;
+        gap: 6px;
+
+        .media-btn {
+            height: 24px;
+            width: 24px;
+            border-radius: 50%;
+            filter: grayscale(100%);
+            transition: filter 500ms ease;
+
+
+            &:hover {
+                filter: grayscale(0%);
+                transform: scale(1.05) rotate(-1deg);
+                transition: filter 500ms ease;
+            }
+        }
+    }
+}

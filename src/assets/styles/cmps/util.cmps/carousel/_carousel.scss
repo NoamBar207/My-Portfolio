@@ -1,0 +1,27 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    min-height: 550px;
+    // height: 100%;
+    overflow: hidden;
+    
+    .next,
+    .prev {
+        margin-inline: 5px;
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        // padding: 15px;
+        top: 50%;
+        background-color: #777474;
+        border-radius: 50%;
+    }
+
+    .next {
+        right: 0;
+    }
+
+    .prev {
+        left: 0;
+    }
+}

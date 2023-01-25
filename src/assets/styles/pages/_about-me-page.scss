@@ -1,0 +1,103 @@
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 60px 250px;
+    color: $clr-proj-info;
+
+    .about-me-summary {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+
+        .summary-tech {
+
+            .tech-list {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 8px;
+                padding: 0;
+                margin: 0;
+                margin: 12px 0;
+
+                li {
+                    @include flex-center;
+                    gap: 4px;
+                    font-size: 18px;
+                    color: $clr-link-color;
+                }
+            }
+        }
+
+        .summary-myself {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+    }
+
+
+    .img-text-container {
+        display: flex;
+        gap: 8px;
+
+        img {
+            width: 30%;
+            max-height: 615px;
+            max-width: 200px;
+            border-radius: 8px;
+        }
+
+        .about-me-info-container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 12px;
+
+            .about-me-personality,
+            .about-me-professional,
+            .about-me-military {
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+                
+            }
+
+            .about-me-military {
+                div{
+                    gap: 6px;
+                }
+            }
+
+            .about-me-professional {
+                .professional-info {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 4px;
+
+                    h3 {
+                        span {
+                            text-decoration: underline;
+                            color: $clr-link-color;
+                            font-size: 20px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+
+    h1 {
+        font-size: 24px;
+        color: $clr-link-color;
+    }
+
+    h2 {
+        color: $clr-link-color;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,27 @@
+
+
+
+//Set-Up
+@import './set-up/mixins';
+@import './set-up/variables';
+@import './set-up/typography';
+
+//Cmps
+@import './cmps/app-header';
+@import './cmps/skill-comp';
+@import './cmps/contact';
+@import './cmps/proj-comp';
+@import './cmps/service-comp';
+@import './cmps/hero-comp';
+
+//Pages
+@import './pages/about-project-page';
+@import './pages/about-me-page';
+@import './pages/home-page';
+
+//UtilCmps
+@import './cmps/util.cmps/media-button';
+@import './cmps/util.cmps/carousel/carousel';
+@import './cmps/util.cmps/carousel/carousel-slide';
+
+@import './basic/basic';
