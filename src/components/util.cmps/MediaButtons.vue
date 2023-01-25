@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import pdfFile from "../../assets/links/Noambar.pdf"
+// import pdfFile from "../../assets/links/Noambar.pdf"
 export default {
 
     data(){
