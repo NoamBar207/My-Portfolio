@@ -146,7 +146,7 @@ const MyProjects = [
         bg: "https://res.cloudinary.com/noambar/image/upload/v1673889648/Portfolio/Projects/fotor_2023-1-16_19_18_55_qoi3f3.png",
         features: [
             {
-                title: 'Create & Customizen',
+                title: 'Create and Customizen',
                 info: 'Create playlists, change its picture. Add remove and move songs to which order you like using D&D.',
                 img: 'fa-solid fa-palette'
             },
@@ -166,7 +166,7 @@ const MyProjects = [
                 img: 'fa-solid fa-lock'
             }
         ],
-        technologies: "The technnology stack I used is MERN - MongoDB, Express, React, Node.js. I used webSockets to enable real-time updates for all users. API calls to the backend are done with REST API method. In addition, I have incorporated third-side libraries, such as React beautiful D&D, react-youtube and more. the App's layout was made with Sass (functions, mixins, variables). As i tried to make something other then only spotify clone , I have implemented a custom Form/Chat in the app.",
+        technologies: `The technnology stack I used is MERN - MongoDB, Express, React, Node.js. I used webSockets to enable real-time updates for all users. API calls to the backend are done with REST API method. In addition, I have incorporated third-side libraries, such as React beautiful D&D, react-youtube and more. the App's layout was made with Sass (functions, mixins, variables). As i tried to make something other then only spotify clone , I have implemented a custom Form/Chat in the app.`,
         showcase: [
             {
                 showcaseTitle: 'Home Page',

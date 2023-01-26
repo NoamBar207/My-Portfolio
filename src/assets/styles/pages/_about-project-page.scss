@@ -31,6 +31,7 @@
 
         .project-info {
             // align-self: flex-start;
+            color: $clr-link-color;
             font-size: 22px;
         }
 
@@ -55,7 +56,7 @@
     .project-showcase-container {
         display: flex;
         flex-direction: column;
-        width: 850px;
+        width: 800px;
         height: 100%;
         margin-top: 24px;
         gap: 8px;
@@ -99,8 +100,9 @@
             margin: 12px 0;
 
             .curr-img {
-                height: 100%;
-                width: 100%;
+                aspect-ratio: 2500 / 1750;
+                // height: 100%;
+                // width: 100%;
                 border-radius: 8px;
                 background-position: center center;
                 background-size: cover;
@@ -157,4 +159,139 @@
         // }
     }
 
+}
+
+
+@include for-laptop-layout {
+    .about-project-container {
+        padding: 30px 10px;
+
+        .project-main {
+            width: 100%;
+            padding: 10px;
+
+            .project-title {
+                font-size: 40px;
+                padding-bottom: 8px;
+            }
+
+            .project-info {
+                font-size: 18px;
+            }
+
+            .project-technologies {
+                font-size: 14px;
+            }
+
+            .button-cv {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@include for-laptop-narrow-layout {
+    .about-project-container {
+        .try-div {
+            height: 430px;
+        }
+
+        .project-showcase-container {
+            width: 800px;
+        }
+    }
+}
+
+@include for-tablet-layout {
+    .about-project-container {
+        .try-div {
+            height: 400px;
+        }
+
+        .services-container {
+
+            .service-container {
+
+                .card-container {
+                    h2 {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+        .project-showcase-container {
+            width: 100%;
+
+            .project-showcase {
+
+                .curr-img {
+                    // aspect-ratio: 500 / 260;
+                    // height: 90%;
+                    border-radius: 8px;
+                    background-position: center center;
+                    background-size: cover;
+                    // min-height: 350px;
+                    // max-height: 350px;
+                }
+            }
+
+            .carousel-side {
+                .project-showcase-info {
+                    .info-txt {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include for-mobile-layout {
+    .about-project-container {
+
+        .project-main {
+
+            .project-title{
+                font-size: 36px;
+            }
+
+            .project-info {
+                // align-self: flex-start;
+                color: $clr-link-color;
+                font-size: 18px;
+            }
+
+            .project-technologies {
+                font-size: 12px;
+            }
+
+            .button-cv {
+                font-size: 12px;
+            }
+        }
+
+        .services-container {
+
+            .service-container {
+
+                .card-container {
+                    h2 {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+        .project-showcase-container {
+
+            .carousel-side {
+                .project-showcase-info {
+                    .info-txt {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
 }

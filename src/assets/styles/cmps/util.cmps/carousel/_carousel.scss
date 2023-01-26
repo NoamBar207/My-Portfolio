@@ -1,10 +1,11 @@
 .carousel {
     position: relative;
-    width: 100%;
-    min-height: 550px;
+    // width: 100%;
+    // min-height: 600px;
     // height: 100%;
     overflow: hidden;
-    
+    aspect-ratio: 2500/ 1900;
+
     .next,
     .prev {
         margin-inline: 5px;
@@ -25,3 +26,35 @@
         left: 0;
     }
 }
+
+
+
+// @include for-tablet-layout {
+//     .carousel {
+//         min-height: 550px;
+//     }
+// }
+
+// @media (max-width: 700px) {
+//     .carousel {
+//         min-height: 500px;
+//     }
+// }
+
+// @media (max-width: 600px) {
+//     .carousel {
+//         min-height: 400px;
+//     }
+// }
+
+// @include for-mobile-layout {
+//     .carousel {
+//         min-height: 350px;
+//     }
+// }
+
+// @media (max-width: 400px) {
+//     .carousel {
+//         min-height: 300px;
+//     }
+// }
