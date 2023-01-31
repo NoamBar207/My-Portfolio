@@ -438,6 +438,6 @@ const MyProjects = [
             "The projects is based on Angular as framwork, TypeScript as programming language and Scss for styling.",
             "Before starting the project I havent used Angular nor TypeScript. I research and learnt it by myself.",
         ],
-        url: 'https://memegenerator-noambar.onrender.com/'
+        url: 'https://noambar207.github.io/MisterBitcoin-Angular/#/'
     },
 ]
