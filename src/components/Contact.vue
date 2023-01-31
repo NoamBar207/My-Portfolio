@@ -1,5 +1,5 @@
 <template>
-  <section class="contact-container">
+  <section class="contact-container" id="contact">
     <article class="contact-info-container">
       <div class="contact-logo">
         <img class="logo" src="https://res.cloudinary.com/noambar/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1673697441/Portfolio/NoamLogo_ft0vkb.png" alt="">

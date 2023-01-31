@@ -169,6 +169,8 @@
         flex-direction: column-reverse;
         justify-content: center;
         gap: 36px;
+        box-sizing: border-box;
+        padding: 0 10px;
 
 
         .contact-info-container {

@@ -6,6 +6,8 @@
 @import './set-up/variables';
 @import './set-up/typography';
 
+@import './basic/basic';
+
 //Cmps
 @import './cmps/app-header';
 @import './cmps/skill-comp';
@@ -23,5 +25,3 @@
 @import './cmps/util.cmps/media-button';
 @import './cmps/util.cmps/carousel/carousel';
 @import './cmps/util.cmps/carousel/carousel-slide';
-
-@import './basic/basic';

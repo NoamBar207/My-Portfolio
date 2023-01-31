@@ -23,7 +23,9 @@
 
 
     <article class="img-text-container">
-        <img src="https://res.cloudinary.com/noambar/image/upload/v1674073830/Portfolio/Projects/WhatsApp_Image_2023-01-18_at_12.48.28_el7jhs.jpg"/>
+        <div class="img" :style="{'background-image':'url(https://res.cloudinary.com/noambar/image/upload/v1674073830/Portfolio/Projects/WhatsApp_Image_2023-01-18_at_12.48.28_el7jhs.jpg)'}"></div>
+        <!-- // :style="{ 'background-image': 'url(' + project.bg + ')' }" -->
+        <!-- <img src="https://res.cloudinary.com/noambar/image/upload/v1674073830/Portfolio/Projects/WhatsApp_Image_2023-01-18_at_12.48.28_el7jhs.jpg"/> -->
     <div class="about-me-info-container">
         <div class="about-me-personality">
             <h1>About Me:</h1>
@@ -130,6 +132,9 @@ export default {
                 }
             ]
         }
+    },
+    created(){
+        window.scrollTo(0, 0);
     }
 };
 </script>

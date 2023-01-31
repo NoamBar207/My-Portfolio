@@ -234,6 +234,11 @@ const MyProjects = [
                 info: 'If you havent found the backgorund meme you want, you can upload it via your device.',
                 img: 'fa-solid fa-upload'
             },
+            {
+                title: 'Filter By Your Own Cohice',
+                info: 'You can filter the memes background by your own choice, free text or by key words.',
+                img: 'fa-solid fa-filter'
+            },
         ],
         technologies: "The technnology stack I used is DHTML - JavaScript, CSS and HTML5. I used Canvas element to enable the customization of the memes. The app's layout was made with Css, and its fully compatible throgh all devices.",
         showcase: [
@@ -274,6 +279,11 @@ const MyProjects = [
         bg: "https://res.cloudinary.com/noambar/image/upload/v1674565363/Portfolio/Projects/fotor_2023-1-24_15_2_3_xeqxeq.png",
         features: [
             {
+                title: 'Diffiuclty Select By You',
+                info: 'You can select and switch diffiuclty easily, just press the button below',
+                img: 'fa-solid fa-hand-pointer'
+            },
+            {
                 title: 'Lives for Game',
                 info: 'In each mode you have three lives - you can hit up to 3 graneds.',
                 img: 'fa-solid fa-palette'
@@ -313,5 +323,121 @@ const MyProjects = [
             },
         ],
         url: 'https://memegenerator-noambar.onrender.com/'
-    }
+    },
+    {
+        _id: 'portfolio',
+        title: 'This Portfolio',
+        mainInfo: 'My Portfolio - This project buid by vue. Its my first experience with vue.',
+        bg: "https://res.cloudinary.com/noambar/image/upload/v1675073347/Portfolio/Projects/PortfolioFullPic_fvdg8i.png",
+        features: [
+            {
+                title: 'Lives for Game',
+                info: 'In each mode you have three lives - you can hit up to 3 graneds.',
+                img: 'fa-solid fa-palette'
+            },
+            {
+                title: 'Safe Button/Click',
+                info: 'As you click this for short time period the game revel a safe cell - cell which isnt granede.',
+                img: 'fa-solid fa-share'
+            },
+            {
+                title: 'Hint Button/Click',
+                info: 'After clicking you can choose a cell which be reveled for short time period as its neighbors.',
+                img: 'fa-solid fa-upload'
+            },
+        ],
+        technologies: "The technnology stack I used is Vue 3 as framework, Vite as runner tool, JavaScript as programming language and Scss for styling. This project took about 2 weeks. It is the first Vue encounter I had as a developer, and mainly built for gaining experience at Vue .",
+        showcase: [
+            {
+                showcaseTitle: 'Home Page',
+                info: 'The home page is the front of My portfolio. Its mainly a summery of my projects and technologies I use. Also you can contact me, as for any other page, via the contact component.',
+                img: 'https://res.cloudinary.com/noambar/image/upload/v1675072780/Portfolio/Projects/Portfolio%20Imgs/HomePage_ehcmms.png',
+            },
+            {
+                showcaseTitle: 'About Project Page',
+                info: "At this page you can read and visit each of my projects. You can learn about the stack I used and its technologies. You can see a show case in a carousel which I built. And on some of the project you have extra info.",
+                img: 'https://res.cloudinary.com/noambar/image/upload/v1675072785/Portfolio/Projects/Portfolio%20Imgs/PojectPage_fkwuor.png',
+            },
+            {
+                showcaseTitle: 'About Me Page',
+                info: "At this page you can read more about me. Its specified more about my knowledge, hobbys, military service and my professional experince.",
+                img: 'https://res.cloudinary.com/noambar/image/upload/v1675072794/Portfolio/Projects/Portfolio%20Imgs/AboutMe_gzundw.png',
+            },
+            {
+                showcaseTitle: 'Library Page',
+                info: "The library page is where the user is able to see all his playlists, those are in the side menu as well, but in this page the playlists are more visual.",
+                img: 'https://res.cloudinary.com/noambar/image/upload/v1674052801/Portfolio/Projects/Mellofy/MellofyLibraryPage_tfqx1t.png',
+            },
+        ],
+        moreAbout: [
+            "This portfolio built by me. It is my first experience with Vue and took about 2 weeks, which mostly spent on designing and styling.",
+            "The projects is based on Vue and Scss. I used Vue 3 and its runner tool is Vite.",
+            "Before starting the project I havent used Vue. I research and learnt it by myself.",
+            'In this project I also learnd alot about event listeners, siblings communication, vue directives and the basic usage of Vue.',
+            'The main reason for this project is to learn more about the framwork Vue, and making a more visual CV for myself.',
+        ],
+        url: 'https://memegenerator-noambar.onrender.com/'
+    },
+    {
+        _id: 'misterbitcoin',
+        title: 'Mister Bitcoin',
+        mainInfo: 'Mister Bitcoin - This project buid by Angular + TypeScript. Its my first experience with Angular and Typscript, and took less the a week. It is a CRUD app - Create, Remove, Update and Delete.',
+        bg: "https://res.cloudinary.com/noambar/image/upload/v1675160598/Portfolio/Projects/MisterBitcoinAngularFullPic_vhsjw5.png",
+        features: [
+            {
+                title: 'Create',
+                info: 'In each mode you have three lives - you can hit up to 3 graneds.',
+                img: 'fa-solid fa-square-plus'
+            },
+            {
+                title: 'Read',
+                info: 'As you click this for short time period the game revel a safe cell - cell which isnt granede.',
+                img: 'fa-brands fa-readme'
+            },
+            {
+                title: 'Update',
+                info: 'After clicking you can choose a cell which be reveled for short time period as its neighbors.',
+                img: 'fa-solid fa-pen'
+            },
+            {
+                title: 'Remove',
+                info: 'After clicking you can choose a cell which be reveled for short time period as its neighbors.',
+                img: 'fa-solid fa-square-minus'
+            },
+        ],
+        technologies: "The technnology I used is Angular as framework, TypeScript as programming language and Scss for styling. This project took less then a week. It is the first Angular and Typescript encounter I had as a developer, and mainly built for gaining experience with Angular and TypeScript.",
+        showcase: [
+            {
+                showcaseTitle: 'HomePage',
+                info: 'The HomePage is the front of My app. Here you need to enter your name as login, and then you can use the full app. You can watch history of bitcoin throughout a year and watch you whole transference history.',
+                img: 'https://res.cloudinary.com/noambar/image/upload/v1675160690/Portfolio/Projects/MisterBitcoin/HomePage_oc2dey.png',
+            },
+            {
+                showcaseTitle: 'Contact List Page',
+                info: "At this page you can watch your contact list. You can add contact by clicking on the plus button at the buttom.",
+                img: 'https://res.cloudinary.com/noambar/image/upload/v1675160696/Portfolio/Projects/MisterBitcoin/ContactList_fm9ijl.png',
+            },
+            {
+                showcaseTitle: 'Contact Details Page',
+                info: "At this page you can watch the history between one of you and your contact, as well as his info.",
+                img: 'https://res.cloudinary.com/noambar/image/upload/v1675160696/Portfolio/Projects/MisterBitcoin/ContactDetails_sqr8vw.png',
+            },
+            {
+                showcaseTitle: 'Edit Contact Modal',
+                info: "As you hovering a contact you will see the options of - editing, deleting and a plus button which leads to his details. If you select editing the modal will pop and update your list in a real time!.",
+                img: 'https://res.cloudinary.com/noambar/image/upload/v1675160685/Portfolio/Projects/MisterBitcoin/EditContactModal_almfs5.png',
+            },
+            {
+                showcaseTitle: 'And On Mobile!',
+                info: "A taste of the mobile experience. I have used mixins, rem and em units, aspect ratio and more, to make my website responsive with minimun effort.",
+                img: 'https://res.cloudinary.com/noambar/image/upload/v1675160835/Portfolio/Projects/MisterBitcoin/fotor_2023-1-31_12_26_56_qvgyxk.png',
+            },
+        ],
+        moreAbout: [
+            "This portfolio built by me. It is my first experience with Angular and TypeScript. It took less then a week.",
+            "The projects is based on Angular as framwork, TypeScript as programming language and Scss for styling.",
+            "Before starting the project I havent used Angular nor TypeScript. I research and learnt it by myself.",
+        ],
+        url: 'https://memegenerator-noambar.onrender.com/'
+    },
 ]

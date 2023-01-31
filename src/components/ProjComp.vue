@@ -1,8 +1,8 @@
 <template>
-    <section class="projects-container">
+    <section class="projects-container" id="projects-container" >
         <h1>My Projects</h1>
         <main>
-            <article v-for="proj in projects" class="project-container" :key="proj.name">
+            <article v-for="proj in projects" class="project-container" @click="onContainerClick(proj._id)" :key="proj.name">
                 <div class="proj-img" :style="{'background-image':'url(' + proj.img + ')'}"/>
                 <div class="proj-info">
                     <h2 class="proj-name">{{ proj.name }}</h2>
@@ -44,7 +44,7 @@ export default {
                     name: "MisterBitcoin",
                     info: "Wallet app, built using Angular JS. My first Project in Angular.",
                     _id: "misterbitcoin",
-                    img: ""
+                    img: "https://res.cloudinary.com/noambar/image/upload/v1675160598/Portfolio/Projects/MisterBitcoinAngularFullPic_vhsjw5.png"
                 },
                 {
                     name: "Mine Sweeper",
@@ -52,10 +52,20 @@ export default {
                     _id: "minesweeper",
                     img: "https://res.cloudinary.com/noambar/image/upload/v1674565363/Portfolio/Projects/fotor_2023-1-24_15_2_3_xeqxeq.png"
                 },
+                {
+                    name: "This Portfolio",
+                    info: "My Portfolio . built using Vue, Sass and JS.",
+                    _id: "portfolio",
+                    img: "https://res.cloudinary.com/noambar/image/upload/v1675073347/Portfolio/Projects/PortfolioFullPic_fvdg8i.png"
+                },
             ]
         };
     },
-    components: { RouterLink }
+    methods:{
+        onContainerClick(id){
+            this.$router.push(`/about/project/${id}`)
+        }
+    }
 };
 </script>
 

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-    padding: 60px 250px;
+    padding: 80px 200px;
     color: $clr-proj-info;
 
     .about-me-summary {
@@ -42,11 +42,14 @@
         display: flex;
         gap: 8px;
 
-        img {
+        .img {
             width: 30%;
             max-height: 615px;
             max-width: 200px;
             border-radius: 8px;
+            background-position: center top;
+            background-size: cover;
+            background-repeat: no-repeat;
         }
 
         .about-me-info-container {
@@ -61,11 +64,11 @@
                 display: flex;
                 flex-direction: column;
                 gap: 6px;
-                
+
             }
 
             .about-me-military {
-                div{
+                div {
                     gap: 6px;
                 }
             }
@@ -101,3 +104,76 @@
     }
 
 }
+
+@include for-laptop-layout {
+    .about-me-container {
+        padding: 80px 100px;
+
+        .img-text-container{
+
+            .img{
+                min-width: 130px;
+            }
+        }
+        .end-title{
+            font-size: 20px;
+        }
+    }
+}
+
+
+@include for-laptop-narrow-layout {
+    .about-me-container {
+        padding: 80px 50px;
+
+    }
+}
+
+@include for-tablet-layout {
+    .about-me-container {
+        padding: 80px 15px;
+
+
+        .img-text-container{
+            @include flex-center;
+            flex-direction : column-reverse;
+            .img{
+                min-height: 320px;
+            }
+            .about-me-info-container{
+                h1{
+                    font-size: 22px;
+                }
+                h3{
+                    font-size:16px;
+                }
+            }
+        }
+        .end-title{
+            font-size: 20px;
+        }
+    }
+}
+
+// @include for-mobile-layout {
+//     .about-me-container {
+//         padding: 80px 15px;
+
+
+//         .img-text-container{
+//             @include flex-center;
+//             flex-direction : column-reverse;
+//             .about-me-info-container{
+//                 h1{
+//                     font-size: 22px;
+//                 }
+//                 h3{
+//                     font-size:16px;
+//                 }
+//             }
+//         }
+//         .end-title{
+//             font-size: 20px;
+//         }
+//     }
+// }

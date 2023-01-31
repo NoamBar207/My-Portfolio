@@ -23,6 +23,9 @@ export default {
     ServiceComp,
     HeroComp,
   },
+  created() {
+    window.scrollTo(0, 0);
+  },
 };
 </script>
 

@@ -1,7 +1,9 @@
 <template>
-  <app-header/>
-  <router-view></router-view>
-  <contact/>
+  <div>
+    <app-header @projects="scrollToProjects" @contact="scrollToContact" />
+    <router-view></router-view>
+    <div ref="contact"><contact /></div>
+  </div>
 </template>
 
 
@@ -13,7 +15,20 @@ import Contact from "./components/Contact.vue";
 export default {
   components: {
     AppHeader,
-    Contact    
+    Contact,
+  },
+  methods: {
+    scrollToContact() {
+      setTimeout(() => {
+        this.$refs.contact.scrollIntoView({ behavior: "smooth" });
+      });
+    },
+    scrollToProjects() {
+      this.$router.push('/')
+      setTimeout(() => {
+        document.querySelector('#projects-container').scrollIntoView({ behavior: "smooth" });
+      });
+    },
   },
 };
 </script>

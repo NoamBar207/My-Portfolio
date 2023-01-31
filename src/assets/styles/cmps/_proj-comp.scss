@@ -3,10 +3,11 @@
     flex-direction: column;
     gap: 12px;
     // margin-block-start: 12px;
-    margin-block-start: 60px;
+    padding-block-start: 50px;
     width: 100%;
 
     h1 {
+        padding-top: 10px;
         font-size: 28px;
     }
 
@@ -14,10 +15,12 @@
         display: flex;
         justify-content: center;
         @include scroll-bars;
+        box-sizing: border-box;
         // text-align: center;
         gap: 12px;
         overflow-x: auto;
         width: 100%;
+        padding: 0 10px 8px 10px;
         padding-bottom: 8px;
 
         .project-container {
@@ -83,7 +86,7 @@
 }
 
 
-@media (max-width: 1600px) {
+@media (max-width: 1900px) {
     .projects-container {
         main {
             justify-content: flex-start;

@@ -7,7 +7,9 @@ html {
 }
 
 body {
-    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+    // padding: 10px;
     // background-color: $clr-background-page;
     // background: linear-gradient(to bottom, #353535, #343434, #333333, #323232, #313131, #2f2f2f, #2e2e2e, #2c2c2c, #292929, #262626, #232323, #202020);
     background-image: linear-gradient(to bottom, #303030 50%, #2c2c2c, #282828, #242424, #202020);
@@ -17,9 +19,17 @@ body {
     color: white;
     @include scroll-bars;
     cursor: default;
+    margin: 0;
 
     >* {
         box-sizing: border-box;
+    }
+
+    &.nav-is-open{
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow-y: scroll;
     }
 }
 
@@ -141,3 +151,8 @@ a {
 //             "app-footer";
 //     }
 // }
+@include for-tablet-layout{
+    body{
+        padding: 0;
+    }
+}
