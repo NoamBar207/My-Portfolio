@@ -15,9 +15,7 @@
             <h4 class="hero-greeting">Hello World,</h4>
             <h2 class="hero-name">I am Noam Bar, a Full Stack Developer</h2>
             <h5 class="hero-main">
-              I create an efficient mobile and web apps while working on both
-              sides of the app, Backend & Frontend. I am maintaing best
-              performence and deliver the desired designs.
+              I create efficient mobile and web applications by working on both the backend and frontend. I ensure optimal performance and deliver desired designs.
             </h5>
           </div>
           <div class="hero-social-media">

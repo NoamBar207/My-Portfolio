@@ -1,12 +1,13 @@
 @mixin flex-center {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @mixin scroll-bars {
-    cursor: pointer ;
-	&::-webkit-scrollbar {
+    cursor: pointer;
+
+    &::-webkit-scrollbar {
         width: 2px;
         height: 4px;
     }
@@ -18,40 +19,54 @@
     &::-webkit-scrollbar-thumb {
         background: #505050;
 
-        &:hover{
+        &:hover {
             background: #555;
         }
     }
 }
 
-@mixin for-laptop-layout {
-	@media (max-width: 1200px) {
-		@content;
-	}
+@mixin noHighlightOnMobile {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    &:focus {
+        outline: none !important;
+    }
 }
 
-@mixin  for-laptop-narrow-layout {
-	@media (max-width: 1000px) {
-		@content;
-	}	
+@mixin for-laptop-layout {
+    @media (max-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin for-laptop-narrow-layout {
+    @media (max-width: 1000px) {
+        @content;
+    }
 }
 
 
 @mixin for-tablet-layout {
-	@media (max-width: 800px) {
-		@content;
-	}
+    @media (max-width: 800px) {
+        @content;
+    }
 }
 
 
 @mixin for-mobile-layout {
-	@media (max-width: 480px) {
-		@content;
-	}
+    @media (max-width: 480px) {
+        @content;
+    }
 }
 
 @mixin chat-form {
-	.form-container{
+    .form-container {
         width: 100%;
         // background-color: grey;
         box-sizing: border-box;
@@ -59,8 +74,8 @@
         height: 62px;
         position: relative;
         // padding: 5px 0;
-        
-        .msg-form{
+
+        .msg-form {
             box-sizing: border-box;
             width: 100%;
             height: 100%;
@@ -70,17 +85,17 @@
             display: flex;
             align-items: center;
 
-            input{
+            input {
                 box-sizing: border-box;
                 flex: 1;
                 height: 100%;
                 border-radius: 50px;
                 outline: none;
-                border: 0; 
+                border: 0;
                 padding: 20px;
             }
 
-            .send-form{
+            .send-form {
                 cursor: pointer;
                 box-sizing: border-box;
                 font-size: 22px;
@@ -94,8 +109,8 @@
                 border-radius: 50px;
                 background-color: darken($clr-green-play, $amount: 15);
                 @include flex-center;
-                
-                &:hover{
+
+                &:hover {
                     background-color: $clr-green-play;
                 }
             }
@@ -106,5 +121,5 @@
             right: -100%;
         }
     }
-	
+
 }

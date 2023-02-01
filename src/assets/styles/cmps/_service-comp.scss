@@ -6,6 +6,7 @@
     overflow-x: hidden;
     overflow-y: hidden;
     @include scroll-bars;
+    @include noHighlightOnMobile;
 
     .service-container {
         @include flex-center;
@@ -128,7 +129,6 @@
 
 @include for-tablet-layout {
     .services-container {
-
         .service-container {
 
             .card-container {
@@ -162,6 +162,7 @@
         grid-template-rows: auto;
         gap: 8px;
         overflow-x: hidden;
+
 
         .service-container {
             padding: 0;

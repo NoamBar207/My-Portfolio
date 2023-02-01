@@ -35,7 +35,7 @@
                 <h3>I love Music and listens to various ganeres - from Rock to Eastern, Pop to Techno.</h3>
             </div>
         </div>
-        <div class="about-me-military">
+        <!-- <div class="about-me-military">
             <h1>Military Service:</h1>
             <div>
                 <h3> I served in the Israeli army for three years.</h3>
@@ -43,7 +43,7 @@
                 <h3>Then went on to serve in the Israeli Borderr Police as "Mistarev" - an undercover solider.</h3>
                 <h3>At May 2018 I honorably discharged. </h3>
         </div>
-    </div>
+        </div> -->
     <div class="about-me-professional">
         <h1>Professional Experince:</h1>
         <div class="professional-info">

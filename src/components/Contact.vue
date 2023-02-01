@@ -14,7 +14,7 @@
           <media-buttons />
         </div>
         <div class="contact-number">
-          <span class="contact-number-prev">My personal contact:</span>
+          <span class="contact-number-prev">Contact details:</span>
           <span>NoamBar2845@gmail.com</span>
           <span class="contact-number-span">+972 52 627 8764</span>
         </div>

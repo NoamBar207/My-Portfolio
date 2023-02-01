@@ -39,17 +39,17 @@ export default {
       services: [
         {
           name: "Responsive",
-          info: "My layouts will work on any device, big or small.",
+          info: "My designs are fully responsive and will adapt to any screen size, whether it's a large desktop display or a small mobile device.",
           img: "fa-solid fa-desktop",
         },
         {
           name: "Fast",
-          info: "Fast load times and lag free interaction, for best user experince.",
+          info: "I aim to provide fast loading times and smooth, lag-free interactions for the best user experience.",
           img: "fa-solid fa-bolt",
         },
         {
           name: "Intuitive",
-          info: "Strong preference for easy to use, intuitive UX/UI.",
+          info: "I have a strong preference for designing user-friendly and intuitive interfaces with a focus on easy-to-use experiences.",
           img: "fa-solid fa-lightbulb",
         },
         {

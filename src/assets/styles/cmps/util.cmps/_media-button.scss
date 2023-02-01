@@ -1,5 +1,6 @@
 .social-media-btn {
     @include flex-center;
+    flex-direction: row-reverse;
     gap: 6px;
 
     button {

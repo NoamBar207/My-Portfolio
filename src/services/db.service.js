@@ -80,12 +80,12 @@ const MyProjects = [
         features: [
             {
                 title: 'Create of Your Choice',
-                info: 'Create boards, create and move lists and tasks across the board using D&D.',
+                info: 'Create boards, and within each board you can create lists and tasks. You can move lists and tasks across the board using D&D.',
                 img: 'fa-solid fa-square-plus'
             },
             {
                 title: 'Customize as You Like',
-                info: 'Edit task to the deepest level: cover(color/image), labels, attachments, due dates, description, members, checklists. filter members and labels. copy and remove tasks and lists.',
+                info: 'Edit task to the deepest level: cover, labels, attachments, due dates, description, members, checklists. filter members and labels.',
                 img: 'fa-solid fa-palette'
             },
             {
@@ -99,21 +99,21 @@ const MyProjects = [
                 img: 'fa-solid fa-lock'
             }
         ],
-        technologies: "The technnology stack we used is MERN - MongoDB, Express, React, Node.js. We used webSockets to enable real-time updates for all users. API calls to the backend are done with REST API method. In addition, we have incorporated third-side libraries, such as React beautiful D&D, Date-picker and more. the App's layout was made with Sass (functions, mixins, variables).",
+        technologies: "The technology stack we used is MERN - MongoDB, Express, React, and Node.js. We utilized websockets to allow for real-time updates for all users, and API calls to the backend were made using REST API methods. Furthermore, we incorporated third-party libraries, such as React Beautiful D&D, date-picker, and more. The app's layout was designed using Sass, including functions, mixins, and variables.",
         showcase: [
             {
                 showcaseTitle: 'Homepage',
-                info: 'The landing page, in which the user can get some information about Mello, sign up/ login or press the call to action button "Start doing" to start as a guest.',
+                info: 'The landing page provides the user with information about Mello and allows them to sign up/log in or start as a guest by pressing the "Start Doing" button.',
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1673784809/Portfolio/Projects/Trello/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f6465626d626a7662682f696d6167652f75706c6f61642f76313636313738303031342f686f6d65706167655f7164647a67772e706e67_zpyd8f.png',
             },
             {
                 showcaseTitle: 'Workspace',
-                info: "User's Workspace, containing all his boards, including his starred boards. In addition, the user can create a new board (by choosing a title and a background color/ image) or start with one of our suggested templates.",
+                info: "The Workspace is where the user can access all their boards, including any boards they have starred for quick access. The user can create a new board by choosing a title and selecting a background color or image, or they can start with one of the suggested templates provided by the app.",
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1673784964/Portfolio/Projects/Trello/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f6465626d626a7662682f696d6167652f75706c6f61642f76313636313738303236392f626f617264735f6667656b64692e706e67_t2yv3l.png',
             },
             {
                 showcaseTitle: 'The Board',
-                info: "Our Kanban-style board, containing all of the functionality Trello has. Add lists, tasks, move them across the board with D&D.Editing tasks to the deepest level. Add members to the board and to a specific task and much more!",
+                info: "In the Kanban-style board, users can create boards, lists, and tasks. They have the ability to move tasks and lists across the board using drag-and-drop functionality. Tasks can be edited to the deepest level, including changing the cover (color/image), labels, attachments, due dates, description, members, and checklists. Members and labels can be filtered, tasks and lists can be copied and removed. The board has all the functionality that Trello has, and users can add members to the board or to a specific task.",
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1673785020/Portfolio/Projects/Trello/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f6465626d626a7662682f696d6167652f75706c6f61642f76313636313738303331332f626f6172645f776f373764782e706e67_zginuy.png',
             },
             {
@@ -147,54 +147,54 @@ const MyProjects = [
         features: [
             {
                 title: 'Create and Customizen',
-                info: 'Create playlists, change its picture. Add remove and move songs to which order you like using D&D.',
+                info: 'You can create playlist and change its picture. Songs can be added, removed, and rearranged in the desired order using D&D.',
                 img: 'fa-solid fa-palette'
             },
             {
                 title: 'Add Listeners To Your Playlist',
-                info: 'As you create a playlist, you can add a listeners to it. Each change you make will be updated on real time to your listenrs.',
+                info: 'As you create a playlist, you can add listeners to it. Any changes made to the playlist will be updated in real-time for all listeners.',
                 img: 'fa-solid fa-square-plus'
             },
             {
                 title: 'Mellofy Forum/Chatapp',
-                info: 'Form/Chatapp where you can ask questions and replay to others questions, with a real time response.',
+                info: 'The forum/chat app allows users to ask and answer questions with real-time.',
                 img: 'fa-solid fa-circle-arrow-left'
             },
             {
                 title: 'Authentication & Security',
-                info: 'Login authentication, including encrypting user information using bcrypt.',
+                info: 'The app features login authentication with user information encrypted using bcrypt.',
                 img: 'fa-solid fa-lock'
             }
         ],
-        technologies: `The technnology stack I used is MERN - MongoDB, Express, React, Node.js. I used webSockets to enable real-time updates for all users. API calls to the backend are done with REST API method. In addition, I have incorporated third-side libraries, such as React beautiful D&D, react-youtube and more. the App's layout was made with Sass (functions, mixins, variables). As i tried to make something other then only spotify clone , I have implemented a custom Form/Chat in the app.`,
+        technologies: `The technology stack used for this project is MERN, which stands for - MongoDB, Express, React, and Node.js. Real-time updates for all users were enabled using web sockets. API calls to the backend were made using REST methods. Third-party libraries, such as React Beautiful D&D and React-YouTube, were also integrated into the project. The app's layout was created using Sass, with features such as functions, mixins, and variables. In an effort to differentiate from a simple Spotify clone, a custom form/chat feature was also added to the app.`,
         showcase: [
             {
                 showcaseTitle: 'Home Page',
-                info: 'The home page is the front of Mellofy. Here the user can listen to playlists which made by Mellofy, sign up or login, watch our forum and search for song he desire.',
+                info: 'The home page is the main interface of Mellofy, where users can listen to playlists created by Mellofy, sign up or log in, view the forum, and search for desired songs.',
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1674052809/Portfolio/Projects/Mellofy/MellofyHomePage_ffxv8c.png',
             },
             {
                 showcaseTitle: 'Playlist Details',
-                info: "The playlist details page is where the user is able to edit his songs order using D&D, change the name of the playlist, change the picture of the playlist, add/remove listeners from the playlist, like and unlike songs. Also You can see the duration of the playlist and its creator.",
+                info: "The playlist details page allows the user to rearrange songs using drag-and-drop, change the playlist's name and image, manage listeners, like or unlike songs, and view the playlist's duration and creator.",
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1674052799/Portfolio/Projects/Mellofy/MellofyStationDetails_qc8rml.png',
             },
             {
                 showcaseTitle: 'Forum/Chatapp',
-                info: "As i tried to make something other then only spotify clone, I have implemented a custom Form/Chat in the app, users can ask questions, replay to others questions, and like others answers with a real time response. guests can replay to others questions.",
+                info: "As i tried to make something other then only spotify clone, I have implemented a custom Form/Chat in the app. both registered users and guests can participate in discussions by asking questions, responding to other questions, and liking others' answers, with real-time updates.",
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1674052804/Portfolio/Projects/Mellofy/MellofyForum_ntys4m.png',
             },
             {
                 showcaseTitle: 'Library Page',
-                info: "The library page is where the user is able to see all his playlists, those are in the side menu as well, but in this page the playlists are more visual.",
+                info: "The library page offers a more visual display of all the user's playlists, which are also accessible from the side menu. On this page, playlists are presented in a clear and organized manner.",
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1674052801/Portfolio/Projects/Mellofy/MellofyLibraryPage_tfqx1t.png',
             },
             {
                 showcaseTitle: 'Search Engine',
-                info: "My search engine has two diffrent versions. First the user will search songs at the Mellofy database. Then if the user havent found the song he lookes for, he can search the song at Youtube database and it will be atumatcly add to Mellofy database.",
+                info: "The search engine has two different versions. The first version allows the user to search songs within Mellofy's database. If the desired song is not found, the second version allows the user to search for the song on the Youtube database and automatically add it to Mellofy's database.",
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1674052807/Portfolio/Projects/Mellofy/MellofySearchEngine_xmrm5a.png',
             },
             {
-                showcaseTitle: 'Signup',
+                showcaseTitle: 'Signup/Login Page',
                 info: "I have created an e2e authentication flow, in which I am encrypting user's information.",
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1674052798/Portfolio/Projects/Mellofy/MellofySignUpPage_zplkxd.png',
             },
@@ -226,49 +226,49 @@ const MyProjects = [
             },
             {
                 title: 'Share Your Own Memes',
-                info: 'As you create a meme, you can add download freely to your device and shere it whom ever you like.',
+                info: 'While creating a meme, you have the option to download it for free to your device and share it with whoever you like.',
                 img: 'fa-solid fa-share'
             },
             {
                 title: 'Upload Your Own Backgorund',
-                info: 'If you havent found the backgorund meme you want, you can upload it via your device.',
+                info: "If you can't find the desired background image for your meme, you can easily upload one from your device.",
                 img: 'fa-solid fa-upload'
             },
             {
                 title: 'Filter By Your Own Cohice',
-                info: 'You can filter the memes background by your own choice, free text or by key words.',
+                info: 'You have the option to filter the available meme backgrounds using your preferred keywords or by using free-text search.',
                 img: 'fa-solid fa-filter'
             },
         ],
-        technologies: "The technnology stack I used is DHTML - JavaScript, CSS and HTML5. I used Canvas element to enable the customization of the memes. The app's layout was made with Css, and its fully compatible throgh all devices.",
+        technologies: "I created a custom meme generator using JavaScript, HTML5, and CSS. The app allows you to create and share your own memes using the HTML5 canvas element for customization. The layout is designed to be fully responsive for all devices",
         showcase: [
             {
                 showcaseTitle: 'Gallery Page',
-                info: 'The home page is the front of My meme generator. Here the user can pick the meme template, and its has filter ability via keywords or search.',
+                info: 'The home page serves as the front of the meme generator where users can choose from a variety of meme templates, filtered by keyword or free-text search.',
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1674150058/Portfolio/Projects/MemeGenerator/Homepage_btewbr.png',
             },
             {
                 showcaseTitle: 'Canvas Page',
-                info: "As you selected your meme background you will get to the canvas page. Here you can add text lines, stickers, change font size, change text color, and move lines around using drag & drop. Furthermore after choosing your template, you can change its background using the upload button..",
+                info: "Once you have selected a meme background, you will be taken to the canvas page. Here you can add text, stickers, adjust font size, change text color, and rearrange elements using drag-and-drop functionality. You also have the option to change the background image using the upload button.",
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1674150052/Portfolio/Projects/MemeGenerator/MemeCanvas_hfzjwb.png',
             },
             {
                 showcaseTitle: 'About Page',
-                info: "At this page the user is given instructions on how to use the app. furthermore, I explained there the reason behind this project.",
+                info: "On this page, users are provided with clear instructions on how to use the app, as well as an explanation of the purpose and motivation behind the project.",
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1674150062/Portfolio/Projects/MemeGenerator/AboutPage_utrxt7.png',
             },
-            {
-                showcaseTitle: 'Library Page',
-                info: "The library page is where the user is able to see all his playlists, those are in the side menu as well, but in this page the playlists are more visual.",
-                img: 'https://res.cloudinary.com/noambar/image/upload/v1674052801/Portfolio/Projects/Mellofy/MellofyLibraryPage_tfqx1t.png',
-            },
+            // {
+            //     showcaseTitle: 'Library Page',
+            //     info: "The library page is where the user is able to see all his playlists, those are in the side menu as well, but in this page the playlists are more visual.",
+            //     img: 'https://res.cloudinary.com/noambar/image/upload/v1674052801/Portfolio/Projects/Mellofy/MellofyLibraryPage_tfqx1t.png',
+            // },
         ],
         moreAbout: [
-            "This project built by me. Its a sprint build (only took 3 days).",
-            "The projects is based on pure JavaScript, CSS and HTML 5. The meme editor is based on Canvas technolgy, which brought to us in HTML 5.",
-            "Before starting the project I had one lesson about the Canvas tag, and needed to research more about it in those 3 days.",
-            'In this project I also learnd alot about event listeners, as I needed them in the Canvas itself.',
-            'I have implanted my own Drag & Drop in the app, using calculation of width and height of each element in the Canvas.',
+            "I built this project in a short time frame of three days.",
+            "The technology stack used was pure JavaScript, CSS, and HTML5. The meme editor was created using the HTML5 canvas technology.",
+            "efore starting the project, I had a basic understanding of the canvas tag and needed to do further research during the three-day build.",
+            'In this project, I also learned a lot about event listeners, which were necessary for the canvas functionality.',
+            'I implemented my own drag-and-drop feature in the app using calculations of the width and height of each canvas element.',
         ],
         url: 'https://memegenerator-noambar.onrender.com/'
     },
@@ -280,26 +280,26 @@ const MyProjects = [
         features: [
             {
                 title: 'Diffiuclty Select By You',
-                info: 'You can select and switch diffiuclty easily, just press the button below',
+                info: 'Users can easily switch between different levels of difficulty by pressing the buttons below.',
                 img: 'fa-solid fa-hand-pointer'
             },
             {
                 title: 'Lives for Game',
                 info: 'In each mode you have three lives - you can hit up to 3 graneds.',
-                img: 'fa-solid fa-palette'
+                img: 'fa-solid fa-heart'
             },
             {
                 title: 'Safe Button/Click',
-                info: 'As you click this for short time period the game revel a safe cell - cell which isnt granede.',
-                img: 'fa-solid fa-share'
+                info: 'When you click, the game reveals a safe cell, which is not a mine, for a short period of time.',
+                img: 'fa-solid fa-helmet-safety'
             },
             {
                 title: 'Hint Button/Click',
-                info: 'After clicking you can choose a cell which be reveled for short time period as its neighbors.',
-                img: 'fa-solid fa-upload'
+                info: 'After clicking, you can choose a cell to be revealed, along with its neighbors, for a short period of time.',
+                img: 'fa-solid fa-lightbulb'
             },
         ],
-        technologies: "The technnology stack I used is DHTML - JavaScript, CSS and HTML5. This project is a sprint build - had 2 days to build it. It is the first sprint I had as a developer, and mainly built for gaining more experience in JS, HTML and CSS.",
+        technologies: "The technology stack I used for this project includes DHTML, JavaScript, CSS, and HTML5. It was a sprint build and I had only 2 days to complete it. This project was mainly focused on gaining more experience in JavaScript, HTML, and CSS",
         showcase: [
             {
                 showcaseTitle: 'Gallery Page',
@@ -327,7 +327,7 @@ const MyProjects = [
     {
         _id: 'portfolio',
         title: 'This Portfolio',
-        mainInfo: 'My Portfolio - This project buid by vue. Its my first experience with vue.',
+        mainInfo: 'My Portfolio - This project was built using Vue. It was my first experience with Vue.',
         bg: "https://res.cloudinary.com/noambar/image/upload/v1675073347/Portfolio/Projects/PortfolioFullPic_fvdg8i.png",
         features: [
             {
@@ -346,85 +346,85 @@ const MyProjects = [
                 img: 'fa-solid fa-upload'
             },
         ],
-        technologies: "The technnology stack I used is Vue 3 as framework, Vite as runner tool, JavaScript as programming language and Scss for styling. This project took about 2 weeks. It is the first Vue encounter I had as a developer, and mainly built for gaining experience at Vue .",
+        technologies: "The technology stack I used for this project includes Vue 3 as the framework, Vite as the build tool, JavaScript as the programming language, and SCSS for styling. It took me about 2 weeks to complete. This was my first experience with Vue as a developer and was mainly focused on gaining experience with the framework.",
         showcase: [
             {
                 showcaseTitle: 'Home Page',
-                info: 'The home page is the front of My portfolio. Its mainly a summery of my projects and technologies I use. Also you can contact me, as for any other page, via the contact component.',
+                info: 'The home page serves as the front of my portfolio. Its mainly a summery of my projects and technologies I use. Also you can contact me, as for any other page, via the contact component.',
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1675072780/Portfolio/Projects/Portfolio%20Imgs/HomePage_ehcmms.png',
             },
             {
                 showcaseTitle: 'About Project Page',
-                info: "At this page you can read and visit each of my projects. You can learn about the stack I used and its technologies. You can see a show case in a carousel which I built. And on some of the project you have extra info.",
+                info: "On this page, you can read about and visit each of my projects. You can learn about the technology stacks I used and see the technologies in action. I've also included a showcase carousel for each project, and some projects have additional information available.",
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1675072785/Portfolio/Projects/Portfolio%20Imgs/PojectPage_fkwuor.png',
             },
             {
                 showcaseTitle: 'About Me Page',
-                info: "At this page you can read more about me. Its specified more about my knowledge, hobbys, military service and my professional experince.",
+                info: "On this page, you can learn more about me, including my areas of expertise, hobbies, military service, and professional experience.",
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1675072794/Portfolio/Projects/Portfolio%20Imgs/AboutMe_gzundw.png',
             },
-            {
-                showcaseTitle: 'Library Page',
-                info: "The library page is where the user is able to see all his playlists, those are in the side menu as well, but in this page the playlists are more visual.",
-                img: 'https://res.cloudinary.com/noambar/image/upload/v1674052801/Portfolio/Projects/Mellofy/MellofyLibraryPage_tfqx1t.png',
-            },
+            // {
+            //     showcaseTitle: 'Library Page',
+            //     info: "The library page is where the user is able to see all his playlists, those are in the side menu as well, but in this page the playlists are more visual.",
+            //     img: 'https://res.cloudinary.com/noambar/image/upload/v1674052801/Portfolio/Projects/Mellofy/MellofyLibraryPage_tfqx1t.png',
+            // },
         ],
         moreAbout: [
-            "This portfolio built by me. It is my first experience with Vue and took about 2 weeks, which mostly spent on designing and styling.",
-            "The projects is based on Vue and Scss. I used Vue 3 and its runner tool is Vite.",
-            "Before starting the project I havent used Vue. I research and learnt it by myself.",
-            'In this project I also learnd alot about event listeners, siblings communication, vue directives and the basic usage of Vue.',
-            'The main reason for this project is to learn more about the framwork Vue, and making a more visual CV for myself.',
+            "I built this portfolio and it was my first experience with Vue. It took me about 2 weeks, with most of the time spent on design and styling.",
+            "The project is based on Vue and SCSS. I used Vue 3 with Vite as the build tool.",
+            "Before starting, I had no prior experience with Vue, but I learned it through research and self-study.",
+            'During this project, I gained a lot of knowledge about event listeners, communication between components, Vue directives, and the basics of Vue.',
+            'The main goal of this project was to learn more about the Vue framework and create a more visually appealing CV for myself.',
         ],
         url: 'https://memegenerator-noambar.onrender.com/'
     },
     {
         _id: 'misterbitcoin',
         title: 'Mister Bitcoin',
-        mainInfo: 'Mister Bitcoin - This project buid by Angular + TypeScript. Its my first experience with Angular and Typscript, and took less the a week. It is a CRUD app - Create, Remove, Update and Delete.',
+        mainInfo: 'Mister Bitcoin - This project was built using Angular and TypeScript. It was my first experience with both technologies. It is a CRUD (Create, Read, Update, Delete) application.',
         bg: "https://res.cloudinary.com/noambar/image/upload/v1675160598/Portfolio/Projects/MisterBitcoinAngularFullPic_vhsjw5.png",
         features: [
             {
                 title: 'Create',
-                info: 'In each mode you have three lives - you can hit up to 3 graneds.',
+                info: 'You can create as many contacts as you desire and they will be automatically saved, just click on the add button (plus icon) at the buttom of the page.',
                 img: 'fa-solid fa-square-plus'
             },
             {
                 title: 'Read',
-                info: 'As you click this for short time period the game revel a safe cell - cell which isnt granede.',
+                info: 'By hovering over a contact, you can view their information and transaction history by clicking the info button (plus icon).',
                 img: 'fa-brands fa-readme'
             },
             {
                 title: 'Update',
-                info: 'After clicking you can choose a cell which be reveled for short time period as its neighbors.',
+                info: 'By hovering over a contact, you can click the edit button (pen icon) and make changes to their information using an edit modal.',
                 img: 'fa-solid fa-pen'
             },
             {
                 title: 'Remove',
-                info: 'After clicking you can choose a cell which be reveled for short time period as its neighbors.',
+                info: 'By hovering over a contact, you can delete it from your contact list by clicking the delete button (trash can icon).',
                 img: 'fa-solid fa-square-minus'
             },
         ],
-        technologies: "The technnology I used is Angular as framework, TypeScript as programming language and Scss for styling. This project took less then a week. It is the first Angular and Typescript encounter I had as a developer, and mainly built for gaining experience with Angular and TypeScript.",
+        technologies: "The technology stack I used for this project is Angular as the framework, TypeScript as the programming language, and Scss for styling. It took me less than a week to complete. This was my first experience with Angular and TypeScript and I mainly built this project to gain experience with these technologies.",
         showcase: [
             {
                 showcaseTitle: 'HomePage',
-                info: 'The HomePage is the front of My app. Here you need to enter your name as login, and then you can use the full app. You can watch history of bitcoin throughout a year and watch you whole transference history.',
+                info: 'The Homepage serves as the front of the app. To use the app, you need to enter your name as a login. From the Homepage, you can access the history of Bitcoin throughout the years and view your complete transaction history.',
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1675160690/Portfolio/Projects/MisterBitcoin/HomePage_oc2dey.png',
             },
             {
                 showcaseTitle: 'Contact List Page',
-                info: "At this page you can watch your contact list. You can add contact by clicking on the plus button at the buttom.",
+                info: "On the Contact List page, you can view your contact list. To add a contact, simply click the plus button at the bottom of the page.",
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1675160696/Portfolio/Projects/MisterBitcoin/ContactList_fm9ijl.png',
             },
             {
                 showcaseTitle: 'Contact Details Page',
-                info: "At this page you can watch the history between one of you and your contact, as well as his info.",
+                info: "On the Contact Details Page, you can view the transaction history between you and a specific contact, as well as their information.",
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1675160696/Portfolio/Projects/MisterBitcoin/ContactDetails_sqr8vw.png',
             },
             {
                 showcaseTitle: 'Edit Contact Modal',
-                info: "As you hovering a contact you will see the options of - editing, deleting and a plus button which leads to his details. If you select editing the modal will pop and update your list in a real time!.",
+                info: "You can edit a contact by hovering over it and clicking the pen button. This will open an edit modal where you can update the contact information. The changes will be reflected in real time and will be automatically saved.",
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1675160685/Portfolio/Projects/MisterBitcoin/EditContactModal_almfs5.png',
             },
             {
@@ -434,9 +434,11 @@ const MyProjects = [
             },
         ],
         moreAbout: [
-            "This portfolio built by me. It is my first experience with Angular and TypeScript. It took less then a week.",
+            "This project was built by me. It was my first experience with Angular and TypeScript and took less than a week.",
             "The projects is based on Angular as framwork, TypeScript as programming language and Scss for styling.",
-            "Before starting the project I havent used Angular nor TypeScript. I research and learnt it by myself.",
+            "Before starting the project I havent used Angular nor TypeScript.  I researched and learned it by myself.",
+            "I learned about components, services, modules, and how to use them in Angular.",
+            "Additionally, I learned about the benefits of using TypeScript over plain JavaScript, such as stronger typing and improved code quality."
         ],
         url: 'https://noambar207.github.io/MisterBitcoin-Angular/#/'
     },
