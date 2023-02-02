@@ -15,7 +15,7 @@ export const dbService = {
 const ID_FIELD = '_id'
 
 async function query(collectionName) {
-    // var collection = storageService.load(collectionName)
+    var collection = storageService.load(collectionName)
     // if (!collection) {}
     collection = MyProjects
     storageService.save(collectionName, collection)
