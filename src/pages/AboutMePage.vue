@@ -3,8 +3,7 @@
     <article class="about-me-summary">
         <div class="summary-tech">
             <h2>
-                A Full-Stack Developer who specializes in JavaScript programming and
-                writing SPA (Single Page Applications) using latest Web technologies as:
+                A Full-Stack Developer specializing in JavaScript programming and creating SPA (Single Page Applications) using the latest web technologies as :
             </h2>
             <ul class="tech-list">
                 <li v-for="t in tech" :key="t"><span><i :class="t.symbol"></i></span>{{ t.title }}</li>
@@ -13,10 +12,10 @@
             CSS, SASS, TypeScript. Also have a wide knowledge at C++ and C languages. -->
         </div>
         <div class="summary-myself">
-            <h3>Im a quick learner, hardworking, have great communication skills, team player,  proactive and self-motivated.</h3>
-            <h3>I have the abillity and experince to work under pressure and to mange multiple concurrent tasks.</h3>
-            <h3>Im very passionate about programing and always eager to expend my knowledge. </h3>
-            <h3>Languages I talk - Hebrew - native, English - proficient.</h3>
+            <h3>I am a quick learner, hardworking, have great communication skills, I am a team player, proactive, and self-motivated.</h3>
+            <h3>I have the ability and experience to work under pressure and to manage multiple concurrent tasks.</h3>
+            <h3>I am very passionate about programming and always eager to expand my knowledge.</h3>
+            <h3>Languages I speak : Hebrew - native, English - proficient.</h3>
         </div>
     </article>
 
@@ -30,9 +29,9 @@
         <div class="about-me-personality">
             <h1>About Me:</h1>
             <div>
-                <h3>Born in 1997, Im 26 years old. I love nature, travels and hiking, and always loved motorsport.</h3>
-                <h3>I been playing the bass guiter since I was 15 years old. I am very passionate about football and a long time fan of israel's soccer team Maccabi Haifa.</h3>
-                <h3>I love Music and listens to various ganeres - from Rock to Eastern, Pop to Techno.</h3>
+                <h3>I have a passion for nature, traveling, and hiking, and have always been a fan of motorsports.</h3>
+                <h3>I have been playing the bass guitar since I was 15 years old. I am also a passionate football fan and have been supporting Israel's soccer team Maccabi Haifa for a long time.</h3>
+                <h3>I have a diverse taste in music and enjoy listening to different genres, from Rock to Eastern, Pop to Techno.</h3>
             </div>
         </div>
         <!-- <div class="about-me-military">
@@ -48,20 +47,20 @@
         <h1>Professional Experince:</h1>
         <div class="professional-info">
             <h3>
-                <span>2018-2019:</span> After being discharged i for two years in events hall at Ashdod and become its events manger. I had responsibility over the events, waiters, and event supplies.
+                <span>2018-2019:</span> After being discharged from the army, for two years I worked at an events hall in Ashdod and became its events manager. I was responsible for managing the events, waiters, and event supplies.
             </h3>
             <h3>
-                <span>2019-2020:</span> Worked as Bar manger in 'Space' resturant at Emonim. I had responsibility over conducting interviews, employee supervision, meeting sales goals, working with suppliers.
+                <span>2019-2020:</span> I worked as a bar manager at the 'Space' restaurant in Emonim. My responsibilities included conducting interviews, employee supervision, meeting sales goals, and working with suppliers."
             </h3>
             <h3>
-                <span>2020-2021:</span> Worked at the Sea Port in Ashdod as Security System Management - Was incharge of employee and port supervision. 
+                <span>2020-2021:</span> Worked at the Ashdod Sea Port as a Security System Manager, where I was in charge of supervising both employees and the port.
             </h3>
         </div>
     </div>
     </div>
     </article>
     <h2 class="end-title">
-        At May 2022 I started The Coding Academy Full-Stack bootcamp. I took this course because I self learend C & C++ and loved programing.
+        At May 2022, I started The Coding Academy's Full-Stack bootcamp because I had self-taught myself C & C++ and fell in love with programming.
     </h2>
   </section>
 </template>

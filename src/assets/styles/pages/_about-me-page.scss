@@ -109,13 +109,14 @@
     .about-me-container {
         padding: 80px 100px;
 
-        .img-text-container{
+        .img-text-container {
 
-            .img{
+            .img {
                 min-width: 130px;
             }
         }
-        .end-title{
+
+        .end-title {
             font-size: 20px;
         }
     }
@@ -134,23 +135,81 @@
         padding: 80px 15px;
 
 
-        .img-text-container{
+        .img-text-container {
             @include flex-center;
-            flex-direction : column-reverse;
-            .img{
+            flex-direction: column-reverse;
+            gap: 24px;
+
+            .img {
                 min-height: 320px;
             }
-            .about-me-info-container{
-                h1{
+
+            .about-me-info-container {
+                h1 {
                     font-size: 22px;
                 }
+
+                h3 {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .end-title {
+            font-size: 20px;
+        }
+    }
+}
+
+@include for-mobile-layout {
+    .about-me-container {
+        padding: 80px 15px 50px 15px;
+
+        .about-me-summary {
+            h2 {
+                font-size: 18px;
+            }
+
+            .summary-tech {
+                .tech-list {
+                    li {
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .summary-myself {
+                h3 {
+                    font-size: 16px;
+                }
+            }
+
+        }
+
+        .img-text-container {
+            .about-me-info-container {
+
+                h1 {
+                    font-size: 18px;
+                }
                 h3{
-                    font-size:16px;
+                    font-size: 14px;
+                }
+
+
+                .about-me-professional{    
+                    .professional-info{
+                        h3{
+                            span{
+                                font-size: 16px;
+                            }
+                        }
+                    }
                 }
             }
         }
         .end-title{
-            font-size: 20px;
+            font-size: 16px;
         }
     }
 }
