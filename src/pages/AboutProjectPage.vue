@@ -31,7 +31,10 @@
           :sc="sc"
         >
           <h3>{{ index + 1 }}) {{ sc.showcaseTitle }}</h3>
-          <img :src="sc.img" class="curr-img" />
+          <img v-if="!sc.showcaseTitle.includes('Mobile!')" :src="sc.img" class="curr-img" />
+          <div v-else class="last-img-container">
+            <img :src="sc.img" class="last-img" />
+          </div>
         </carousel-slide>
       </carousel>
       <article class="project-showcase-prew-container">

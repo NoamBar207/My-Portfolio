@@ -43,7 +43,7 @@
         .cv-repo-btn {
             display: flex;
             gap: 8px;
-            
+
             .media-btn {
                 height: 24px;
                 width: 24px;
@@ -276,6 +276,10 @@
                     background-size: cover;
                     // min-height: 350px;
                     // max-height: 350px;
+                }
+
+                .last-img {
+                    aspect-ratio: 2500 / 1000 !important;
                 }
             }
 

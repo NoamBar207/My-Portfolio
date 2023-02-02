@@ -15,11 +15,10 @@ export const dbService = {
 const ID_FIELD = '_id'
 
 async function query(collectionName) {
-    var collection = storageService.load(collectionName)
-    if (!collection) {
-        collection = MyProjects
-        storageService.save(collectionName, collection)
-    }
+    // var collection = storageService.load(collectionName)
+    // if (!collection) {}
+    collection = MyProjects
+    storageService.save(collectionName, collection)
     return Promise.resolve(collection)
 }
 
@@ -206,7 +205,7 @@ const MyProjects = [
             },
         ],
         url: 'https://mellofy-bynoambar.onrender.com/',
-        repoLink:'https://github.com/NoamBar207/Spotify-Clone'
+        repoLink: 'https://github.com/NoamBar207/Spotify-Clone'
         // moreAbout:[
         //     // "This project Built by me. Its a sprint build (only took 3 days).",
         //     "The projects is based on pure JavaScript, CSS and HTML 5. The meme editor is based on Canvas technolgy, which brought to us in HTML 5.",
@@ -273,7 +272,7 @@ const MyProjects = [
             'I implemented my own drag-and-drop feature in the app using calculations of the width and height of each canvas element.',
         ],
         url: 'https://memegenerator-noambar.onrender.com/',
-        repoLink:'https://github.com/NoamBar207/MemeGenartor'
+        repoLink: 'https://github.com/NoamBar207/MemeGenartor'
     },
     {
         _id: 'minesweeper',
@@ -334,19 +333,24 @@ const MyProjects = [
         bg: "https://res.cloudinary.com/noambar/image/upload/v1675073347/Portfolio/Projects/PortfolioFullPic_fvdg8i.png",
         features: [
             {
-                title: 'Lives for Game',
-                info: 'In each mode you have three lives - you can hit up to 3 graneds.',
-                img: 'fa-solid fa-palette'
+                title: 'My Projects',
+                info: 'You can view my latest projects such as Mellofy (a Spotify clone) and Mello (a Trello clone).',
+                img: 'fa-solid fa-briefcase'
             },
             {
-                title: 'Safe Button/Click',
-                info: 'As you click this for short time period the game revel a safe cell - cell which isnt granede.',
-                img: 'fa-solid fa-share'
+                title: 'My Tech Stack',
+                info: 'HTML, Css, Scss, JavaScript, React, Node.js, MongoDB, Vue, Angular .',
+                img: 'fa-brands fa-stack-overflow'
             },
             {
-                title: 'Hint Button/Click',
-                info: 'After clicking you can choose a cell which be reveled for short time period as its neighbors.',
-                img: 'fa-solid fa-upload'
+                title: 'About Me',
+                info: 'Learn more about me, including my interests and background, on the "About Me" page.',
+                img: 'fa-solid fa-address-card'
+            },
+            {
+                title: 'Contact Me',
+                info: 'You can easily contact me via email using the contact form on the website. My contact information is also available at the bottom of the page.',
+                img: 'fa-solid fa-comments'
             },
         ],
         technologies: "The technology stack I used for this project includes Vue 3 as the framework, Vite as the build tool, JavaScript as the programming language, and SCSS for styling. It took me about 2 weeks to complete. This was my first experience with Vue as a developer and was mainly focused on gaining experience with the framework.",
@@ -354,23 +358,23 @@ const MyProjects = [
             {
                 showcaseTitle: 'Home Page',
                 info: 'The home page serves as the front of my portfolio. Its mainly a summery of my projects and technologies I use. Also you can contact me, as for any other page, via the contact component.',
-                img: 'https://res.cloudinary.com/noambar/image/upload/v1675072780/Portfolio/Projects/Portfolio%20Imgs/HomePage_ehcmms.png',
+                img: 'https://res.cloudinary.com/noambar/image/upload/v1675351019/Portfolio/Projects/Portfolio%20Imgs/HomePage_k5itbf.png',
             },
             {
                 showcaseTitle: 'About Project Page',
                 info: "On this page, you can read about and visit each of my projects. You can learn about the technology stacks I used and see the technologies in action. I've also included a showcase carousel for each project, and some projects have additional information available.",
-                img: 'https://res.cloudinary.com/noambar/image/upload/v1675072785/Portfolio/Projects/Portfolio%20Imgs/PojectPage_fkwuor.png',
+                img: 'https://res.cloudinary.com/noambar/image/upload/v1675351020/Portfolio/Projects/Portfolio%20Imgs/PojectPage_cuzp8j.png',
             },
             {
                 showcaseTitle: 'About Me Page',
                 info: "On this page, you can learn more about me, including my areas of expertise, hobbies, military service, and professional experience.",
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1675072794/Portfolio/Projects/Portfolio%20Imgs/AboutMe_gzundw.png',
             },
-            // {
-            //     showcaseTitle: 'Library Page',
-            //     info: "The library page is where the user is able to see all his playlists, those are in the side menu as well, but in this page the playlists are more visual.",
-            //     img: 'https://res.cloudinary.com/noambar/image/upload/v1674052801/Portfolio/Projects/Mellofy/MellofyLibraryPage_tfqx1t.png',
-            // },
+            {
+                showcaseTitle: 'And On Mobile!',
+                info: "A taste of the mobile experience. I have used mixins, rem and em units, aspect ratio and more, to make my website responsive with minimun effort.",
+                img: 'https://res.cloudinary.com/noambar/image/upload/v1675350439/Portfolio/Projects/Portfolio%20Imgs/PortFolioMobilefull_huafv2.png',
+            },
         ],
         moreAbout: [
             "I built this portfolio and it was my first experience with Vue. It took me about 2 weeks, with most of the time spent on design and styling.",
@@ -379,7 +383,7 @@ const MyProjects = [
             'During this project, I gained a lot of knowledge about event listeners, communication between components, Vue directives, and the basics of Vue.',
             'The main goal of this project was to learn more about the Vue framework and create a more visually appealing CV for myself.',
         ],
-        repoLink:'https://github.com/NoamBar207/My-Portfolio'
+        repoLink: 'https://github.com/NoamBar207/My-Portfolio'
     },
     {
         _id: 'misterbitcoin',
@@ -444,6 +448,6 @@ const MyProjects = [
             "Additionally, I learned about the benefits of using TypeScript over plain JavaScript, such as stronger typing and improved code quality."
         ],
         url: 'https://noambar207.github.io/MisterBitcoin-Angular/#/',
-        repoLink:'https://github.com/NoamBar207/MisterBitcoin-Angular'
+        repoLink: 'https://github.com/NoamBar207/MisterBitcoin-Angular'
     },
 ]

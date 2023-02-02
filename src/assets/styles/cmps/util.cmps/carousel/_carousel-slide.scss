@@ -9,11 +9,16 @@
     text-align: center;
     gap: 8px;
 
-    h3{
+    h3 {
         align-self: flex-start;
         color: $clr-link-color;
     }
 
+    .last-img-container {
+        flex: 1;
+        @include flex-center;
+    }
 
-    
+
+
 }
