@@ -40,6 +40,29 @@
             font-size: 18px;
         }
 
+        .cv-repo-btn {
+            display: flex;
+            gap: 8px;
+            
+            .media-btn {
+                height: 24px;
+                width: 24px;
+                border-radius: 50%;
+                filter: grayscale(100%);
+                transition: filter 500ms ease;
+                background-position: center center;
+                background-size: contain;
+                background-repeat: no-repeat;
+
+
+                &:hover {
+                    filter: grayscale(0%);
+                    transform: scale(1.05) rotate(-1deg);
+                    transition: filter 500ms ease;
+                }
+            }
+        }
+
         .button-cv {
             font-size: 18px;
         }
@@ -145,11 +168,13 @@
             display: flex;
             flex-direction: column;
             gap: 3px;
-            h2{
-                font-size:20px ;
+
+            h2 {
+                font-size: 20px;
                 color: $clr-link-color;
             }
-            h3{
+
+            h3 {
                 font-size: 16px;
             }
         }
@@ -261,6 +286,7 @@
                     }
                 }
             }
+
             .more-info-container {
                 margin-top: 8px;
             }
@@ -273,7 +299,7 @@
 
         .project-main {
 
-            .project-title{
+            .project-title {
                 font-size: 36px;
             }
 
@@ -313,11 +339,13 @@
                     }
                 }
             }
-            .more-info-container{
-                h2{
+
+            .more-info-container {
+                h2 {
                     font-size: 18px;
                 }
-                h3{
+
+                h3 {
                     font-size: 14px;
                 }
             }

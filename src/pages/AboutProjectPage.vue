@@ -3,9 +3,15 @@
     <div class="try-div" :style="{ 'background-image': 'url(' + project.bg + ')' }">
       <article class="project-main">
         <h2 class="project-title">{{ project.title }}</h2>
-        <button class="button-cv" @click="openInNewTab(project.url)">
-          Check It Out!
-        </button>
+        <div class="cv-repo-btn">
+          <button class="button-cv" v-if="project.url" @click="openInNewTab(project.url)">
+            Check It Out!
+          </button>
+          <button class="media-btn" @click="openInNewTab(project.repoLink)" title="Repository" :style="{'background-image' : 'url(' + 'https://res.cloudinary.com/noambar/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,b_rgb:262c35/v1675295723/Portfolio/xeklyfoav8tqkasm5zvm.png' + ')'}"><span></span></button>
+          <!-- <button class="button-cv" v-if="project.url" @click="openInNewTab(project.repoLink)">
+            Repo Link
+          </button> -->
+        </div>
         <h5 class="project-info">{{ project.mainInfo }}</h5>
       <h5 class="project-technologies">{{ project.technologies }}</h5>
       <!-- <div class="prev-pic" :style="{ 'background-image': 'url(' + project.bg + ')' }"></div> -->

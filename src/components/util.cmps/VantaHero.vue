@@ -13,6 +13,7 @@ export default {
   data() {
     return {
       height: window.innerWidth >= 800 ? 400 : 500,
+      pointes: window.innerWidth >= 800 ? 20.0 : 10.0,
     };
   },
 
@@ -27,7 +28,7 @@ export default {
       minWidth: 200.0,
       scale: 1.0,
       scaleMobile: 1.0,
-      points: 20.0,
+      points: this.pointes,
       maxDistance: 22.0,
       spacing: 18.0,
       color: "#c4e9c5",
@@ -45,8 +46,10 @@ export default {
   methods: {
     resizeHandle(e) {
       let h = window.innerWidth >= 800 ? 400 : 500;
+      let p = window.innerWidth >= 800 ? 20.0 : 10.0;
       if (this.height !== h) {
         this.height = h;
+        this.pointes = p;
         if (this.vantaEffect) {
           this.vantaEffect.destroy();
           this.vantaEffect = NET({
@@ -58,7 +61,7 @@ export default {
             minWidth: 200.0,
             scale: 1.0,
             scaleMobile: 1.0,
-            points: 20.0,
+            points: this.pointes,
             maxDistance: 22.0,
             spacing: 18.0,
             color: "#c4e9c5",
@@ -66,7 +69,6 @@ export default {
           });
         }
       }
-
     },
   },
 };

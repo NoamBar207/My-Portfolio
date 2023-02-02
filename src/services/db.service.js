@@ -137,7 +137,8 @@ const MyProjects = [
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1673785445/Portfolio/Projects/Trello/MelloMobile_eqp5or.png',
             },
         ],
-        url: 'https://mello-r9cy.onrender.com/'
+        url: 'https://mello-r9cy.onrender.com/',
+        repoLink: 'https://github.com/NoamBar207/Mello-Proj',
     },
     {
         _id: 'mellofy',
@@ -204,7 +205,8 @@ const MyProjects = [
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1674053716/Portfolio/Projects/Mellofy/All2_b589hr.png',
             },
         ],
-        url: 'https://mellofy-bynoambar.onrender.com/'
+        url: 'https://mellofy-bynoambar.onrender.com/',
+        repoLink:'https://github.com/NoamBar207/Spotify-Clone'
         // moreAbout:[
         //     // "This project Built by me. Its a sprint build (only took 3 days).",
         //     "The projects is based on pure JavaScript, CSS and HTML 5. The meme editor is based on Canvas technolgy, which brought to us in HTML 5.",
@@ -270,7 +272,8 @@ const MyProjects = [
             'In this project, I also learned a lot about event listeners, which were necessary for the canvas functionality.',
             'I implemented my own drag-and-drop feature in the app using calculations of the width and height of each canvas element.',
         ],
-        url: 'https://memegenerator-noambar.onrender.com/'
+        url: 'https://memegenerator-noambar.onrender.com/',
+        repoLink:'https://github.com/NoamBar207/MemeGenartor'
     },
     {
         _id: 'minesweeper',
@@ -376,7 +379,7 @@ const MyProjects = [
             'During this project, I gained a lot of knowledge about event listeners, communication between components, Vue directives, and the basics of Vue.',
             'The main goal of this project was to learn more about the Vue framework and create a more visually appealing CV for myself.',
         ],
-        url: 'https://memegenerator-noambar.onrender.com/'
+        repoLink:'https://github.com/NoamBar207/My-Portfolio'
     },
     {
         _id: 'misterbitcoin',
@@ -440,6 +443,7 @@ const MyProjects = [
             "I learned about components, services, modules, and how to use them in Angular.",
             "Additionally, I learned about the benefits of using TypeScript over plain JavaScript, such as stronger typing and improved code quality."
         ],
-        url: 'https://noambar207.github.io/MisterBitcoin-Angular/#/'
+        url: 'https://noambar207.github.io/MisterBitcoin-Angular/#/',
+        repoLink:'https://github.com/NoamBar207/MisterBitcoin-Angular'
     },
 ]
