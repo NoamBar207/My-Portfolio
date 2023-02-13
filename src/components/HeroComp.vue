@@ -6,10 +6,11 @@
         class="hero-info-container"
         :style="{ height: this.infoHeight + 'px' }"
       >
-        <img
+        <!-- <img
           class="hero-info-img"
-          src="https://res.cloudinary.com/noambar/image/upload/v1673523029/Portfolio/WhatsApp_Image_2023-01-12_at_13.30.04_bekl1z.jpg"
-        />
+          src="https://res.cloudinary.com/noambar/image/upload/v1676306229/Portfolio/IMG_3154_kofrxi.jpg"
+        /> -->
+        <div class="hero-info-img" :style="{backgroundImage: 'url(https://res.cloudinary.com/noambar/image/upload/v1676306229/Portfolio/IMG_3154_kofrxi.jpg)'}"></div>
         <div class="hero-main">
           <div class="hero-info-text">
             <h4 class="hero-greeting">Hello World,</h4>

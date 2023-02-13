@@ -19,8 +19,14 @@
         border-radius: 8px;
 
         .hero-info-img {
-            height: 220px;
-            width: 220px;
+            // max-height: 220px;
+            // max-width: 220px;
+            min-width: 160px;
+            // min-height: 190px;
+            background-position: center top;
+            background-size: cover;
+            background-repeat: no-repeat;
+            aspect-ratio: 2500 / 3750;
             border-radius: 12px;
         }
 
@@ -121,8 +127,8 @@
         .hero-info-container {
 
             .hero-info-img {
-                height: 200px;
-                width: 200px;
+                // height: 200px;
+                // width: 200px;
             }
 
             .hero-main {
@@ -154,10 +160,11 @@
             width: 60%;
 
             .hero-info-img {
-                height: 200px;
-                width: 200px;
+                max-height: 200px;
+                // width: 190px;
             }
 
+            
             .hero-main {
 
                 .hero-info-text {
@@ -184,10 +191,6 @@
     .hero-body {
         .hero-info-container {
             width: 70%;
-            .hero-info-img {
-                height: 190px;
-                width: 190px;
-            }
 
             .hero-main {
 

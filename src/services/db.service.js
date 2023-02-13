@@ -258,11 +258,11 @@ const MyProjects = [
                 info: "On this page, users are provided with clear instructions on how to use the app, as well as an explanation of the purpose and motivation behind the project.",
                 img: 'https://res.cloudinary.com/noambar/image/upload/v1674150062/Portfolio/Projects/MemeGenerator/AboutPage_utrxt7.png',
             },
-            // {
-            //     showcaseTitle: 'Library Page',
-            //     info: "The library page is where the user is able to see all his playlists, those are in the side menu as well, but in this page the playlists are more visual.",
-            //     img: 'https://res.cloudinary.com/noambar/image/upload/v1674052801/Portfolio/Projects/Mellofy/MellofyLibraryPage_tfqx1t.png',
-            // },
+            {
+                showcaseTitle: 'And on Mobile!',
+                info: "A taste of the mobile experience. I have used rem and em units, aspect ratio and more, to make The Meme Generator responsive with minimun effort.",
+                img: 'https://res.cloudinary.com/noambar/image/upload/v1675433773/Portfolio/Projects/MemeGenerator/MemeGeratorMobileFullPic_woenvi.png',
+            },
         ],
         moreAbout: [
             "I built this project in a short time frame of three days.",
